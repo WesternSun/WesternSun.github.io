@@ -1,5 +1,5 @@
 ---
-title: 常用命令
+title: linux 文件系统
 date: 2018-12-07 19:19:32
 categories:
 - linux
