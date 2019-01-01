@@ -19,7 +19,7 @@ type identifier struct {
     ...
 }
 ```
-
+<!--more-->
 `type T struct {a, b int}` 也是合法的语法，它更适用于简单的结构体。
 
 结构体里的字段都有 **名字**，像 field1、field2 等，如果字段在代码中从来也不会被用到，那么可以命名它为 **_**。

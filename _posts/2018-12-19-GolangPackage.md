@@ -23,7 +23,7 @@ tags:
 │   └── main
 │       └── main.go
 ```
-
+<!--more-->
 主函数在main.go文件中，其文件名也可以为其它，但必须包含main函数。在Go编程中，怎么引入自己编写的模块呢，例如在main.go中如何调用add.go或者是multiply.go中的函数。
 
 add.go在cal文件夹下，所以这两个程序的包名为cal（package cal），multiply.go在multi文件夹下，所以程序的包名为multi（package multi）。如果mian函数要调用add.go必须要引入包"cal"（import "xxx/cal"）。要调用multiply.go中的函数，那就要引入包"multi"，如果我们在程序中直接写import "xxx/multi"，编译器会提示我们can not find package "xxx/multi"。因为我们的"multi"包在包"cal"下，所以我们要把包名写完整"xxx/cal/multi"，下面就可以调用各个文件中的函数了。

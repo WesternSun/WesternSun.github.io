@@ -21,6 +21,7 @@ scp -r remote_username@remote_ip:remote_folder local_folder
 scp local_file remote_username@remote_ip:remote_folder
 scp -r local_folder remote_username@remote_ip:remote_folder
 ```
+<!--more-->
 
 ## tar
 ``` shell
