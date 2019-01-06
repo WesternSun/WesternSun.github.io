@@ -110,3 +110,7 @@ SELECT JSON_SEARCH(@j3, 'all', '10'); -- "$[1][0].k"
 SELECT JSON_SEARCH(@j3, 'all', '%b%'); -- ["$[0]", "$[2].x", "$[3].y"]
 SELECT JSON_SEARCH(@j3, 'all', '%b%', NULL, '$[2]'); -- "$[2].x"
 ```
+
+## 参考
+
+* [mysql json 使用 类型 查询 函数](https://www.cnblogs.com/ooo0/p/9309277.html)
