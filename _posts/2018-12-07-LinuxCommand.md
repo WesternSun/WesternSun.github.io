@@ -56,3 +56,33 @@ host hostname
 # 显示所有包含其他使用者的进程（USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND）
 ps aux 
 ```
+
+
+## grep
+```shell
+# 把匹配的行打印出来，grep全称是Global Regular Expression Print
+sshd -T | grep -i max
+```
+-i 或 --ignore-case : 忽略字符大小写的差别。
+-n 或 --line-number : 在显示符合样式的那一行之前，标示出该行的编号
+
+
+## cut
+```shell
+cut -d: -f1 /etc/passwd
+```
+分割符 ':'   ，第一列
+
+
+## adduser
+```shell
+# 添加用户
+$sudo adduser dev           
+```
+
+
+## usermod
+```shell
+# 用户添加sudo权限
+$sudo usermod -aG sudo dev 
+```
