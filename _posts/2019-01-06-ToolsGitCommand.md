@@ -2,9 +2,9 @@
 title: git 命令
 date: 2019-01-06 23:50:33
 categories:
-- tools
+- Tools
 tags:
-- tools
+- tool
 - git
 ---
 # git 命令

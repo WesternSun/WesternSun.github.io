@@ -2,7 +2,7 @@
 title: HTTP状态码
 date: 2018-12-15 11:52:36
 categories:
-- network
+- Network
 tags:
 - http
 ---
