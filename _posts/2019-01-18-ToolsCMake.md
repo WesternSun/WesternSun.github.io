@@ -1,6 +1,6 @@
 ---
-title: Make
-date: 2019-01-16 00:03:42
+title: CMake
+date: 2019-01-18 00:03:42
 categories:
 - Tools
 tags:
