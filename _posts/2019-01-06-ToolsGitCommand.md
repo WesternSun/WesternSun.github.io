@@ -188,3 +188,8 @@ git show v1.4
 git push origin v1.5
 # 默认情况下，git push 命令并不会传送标签到远程仓库服务器上。
 ```
+
+## 分支
+```shell
+# 用当前分支创建dev分支
+git checkout -b dev

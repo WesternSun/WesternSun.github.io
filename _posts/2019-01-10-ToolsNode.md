@@ -22,3 +22,13 @@ sudo npm config set registry https://registry.npm.taobao.org
 sudo npm install n -g
 sudo n stable
 ```
+
+## cnpm
+
+安装cnpm
+```shell
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+# 使用cnpm进行安装，使用方法和npm相同
+cnpm install -g electron
+```
