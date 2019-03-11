@@ -2,7 +2,7 @@
 title: 测试
 date: 2018-12-20 00:26:13
 categories:
-- golang
+- Golang
 tags:
 - golang
 - test

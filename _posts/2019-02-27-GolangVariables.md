@@ -17,7 +17,7 @@ The GOGC variable sets the initial garbage collection target percentage. A colle
 ## GODEBUG
 
 只要在程序执行之前加上环境变量GODEBUG gctrace =1 ，如：
-GODEBUG gctrace =1 ./binary or GODEBUG gctrace =1 go run main.go or GODEBUG gctrace =1 ./binary > trace.log
+GODEBUG=gctrace=1 ./binary or GODEBUG=gctrace=1 go run main.go or GODEBUG gctrace =1 ./binary > trace.log
 
 程序将会显示gc信息，如下
 ```text
